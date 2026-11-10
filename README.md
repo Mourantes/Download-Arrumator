@@ -1,0 +1,57 @@
+# Projeto Download Arrumator
+
+<p align="center">
+    <img src="https://img.shields.io/badge/python-3.12.10-blue?style=plastic&logo=python"/>
+    <img src="https://img.shields.io/badge/Status-Em desenvolvimento-yellow?style=plastic"/>
+</p>
+
+* [Sobre](#sobre) 
+* [Funcionalidades](#funcionalidades) 
+* [Como rodar a aplicação](#como-rodar-a-aplicação)
+
+
+# Sobre
+
+Você é alguém que não arruma suas pastas frequentemente, principalmente a pasta de downloads, e deixa tudo acumulando? 
+
+Quando você vê tá tudo uma bagunça, e ver cada tipo um por um e decidindo o que fazer com isso demora muito.
+
+O Arrumator serve para amenizar isso, arrumando os arquivos na pasta de download (ou na pasta em que rodar o programa), em diferentes pastas para dar uma amenizada na bagunça.
+
+# Funcionalidades
+
+O sistema possui as seguintes funcionalidades:
+
+- **Criação Pastas**: O código cria diferentes pastas para a armazenagem dos arquivos sendo elas:
+    - Documentos: pasta que guarda documentos como arquivos do Word, Excel, PowerPoint, arquivos de texto, etc;
+    - Fotos: pasta que guarda arquivos de imagens como .png, .jpeg. .jpg, etc;
+    - Mídia: pasta que guarda arquivos de vídeos e áudios (sujeito a mudança);
+    - Executáveis: pasta que guarda arquivos executáveis do Windows, arquivos .exe;
+    - Arquivos compactados: pasta que guarda arquivos comprimidos, como .zip, .rar, .7zip;
+- **Identificação de arquivos**: O código identifica os arquivos pelo sufixo do arquivo;
+- **Movimentação de arquivos**: Após a identificação do arquivo, ele é movido para uma das pastas criadas que sua classificação se encaixa.
+
+# Como rodar a aplicação
+
+Este projeto precisa de python 3.12 ou superior para sua execução.
+
+Este projeto não usa nenhuma biblioteca externa, então não é necessário instalar nada além do python.
+
+Para rodar o projeto, deve baixá-lo e colocá-lo na pasta/diretório em que deseja arrumar. 
+
+Em seguida deve abrir abrir a pasta em que o arquivo está salvo no terminal, e enfim executar o arquivo principal no terminal:
+
+```bash
+  python downloadArrumator.py
+```
+
+## Desenvolvedor
+
+| [<img src="https://avatars.githubusercontent.com/u/98195023" width=115><br><sub>Murilo Rodrigues Moura</sub>](https://github.com/Mourantes) |
+| :---: 
+
+## Licença 
+
+The [MIT License]() (MIT)
+
+Copyright © 2026 - Download Arrumator
