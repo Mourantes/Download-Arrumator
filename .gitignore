@@ -1,0 +1,12 @@
+# Global ignore
+.env
+.vscode/
+*.log
+
+# Test ignore
+/venv
+/Fotos
+/Mídia
+/Fotos
+/Exe
+/Docs
