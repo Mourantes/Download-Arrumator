@@ -34,17 +34,13 @@ O sistema possui as seguintes funcionalidades:
 
 # Como rodar a aplicação
 
-Este projeto precisa de python 3.12 ou superior para sua execução.
+Para rodar o projeto, deve baixar o [downloadArrumator.exe](https://raw.githubusercontent.com/Mourantes/Download-Arrumator/refs/heads/main/downloadArrumator.exe) e colocá-lo na pasta/diretório em que deseja arrumar. 
 
-Este projeto não usa nenhuma biblioteca externa, então não é necessário instalar nada além do python.
+Ao colocar o arquivo no pasta, basta executá-lo que as pastas informadas serão criadas e os arquivos serão movidas para as respectivas pastas.
 
-Para rodar o projeto, deve baixá-lo e colocá-lo na pasta/diretório em que deseja arrumar. 
+As pastas que não tem os nomes das criadas não sofrerão mudanças.
 
-Em seguida deve abrir abrir a pasta em que o arquivo está salvo no terminal, e enfim executar o arquivo principal no terminal:
-
-```bash
-  python downloadArrumator.py
-```
+Qualquer erro ou caso acredite que uma extensão de um arquivo seu não esteja no dicionário, informe o desenvolvedor.
 
 ## Desenvolvedor
 
