@@ -22,13 +22,14 @@ O Arrumator serve para amenizar isso, arrumando os arquivos na pasta de download
 
 O sistema possui as seguintes funcionalidades:
 
-- **Criação Pastas**: O código cria diferentes pastas para a armazenagem dos arquivos sendo elas:
+- **Criação Pastas**: O código cria diferentes pastas para a armazenagem dos arquivos através de um dicionário, sendo elas:
     - Documentos: pasta que guarda documentos como arquivos do Word, Excel, PowerPoint, arquivos de texto, etc;
     - Fotos: pasta que guarda arquivos de imagens como .png, .jpeg. .jpg, etc;
-    - Mídia: pasta que guarda arquivos de vídeos e áudios (sujeito a mudança);
+    - Áudios: pasta que guarda arquivos de áudio como .mp3, .m4a;
+    - Vídeos: pasta que guarda arquivos de vídeo como .mp4, .mwv;
     - Executáveis: pasta que guarda arquivos executáveis do Windows, arquivos .exe;
     - Arquivos compactados: pasta que guarda arquivos comprimidos, como .zip, .rar, .7zip;
-- **Identificação de arquivos**: O código identifica os arquivos pelo sufixo do arquivo;
+- **Identificação de arquivos**: O código identifica os arquivos pelo sufixo do arquivo, também sendo referido no dicionário;
 - **Movimentação de arquivos**: Após a identificação do arquivo, ele é movido para uma das pastas criadas que sua classificação se encaixa.
 
 # Como rodar a aplicação
@@ -52,6 +53,6 @@ Em seguida deve abrir abrir a pasta em que o arquivo está salvo no terminal, e 
 
 ## Licença 
 
-The [MIT License]() (MIT)
+The [MIT License](https://github.com/Mourantes/Download-Arrumator/blob/main/LICENCE) (MIT)
 
 Copyright © 2026 - Download Arrumator

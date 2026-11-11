@@ -6,7 +6,9 @@
 # Test ignore
 /venv
 /Fotos
-/Mídia
+/Áudios
+/Vídeos
+/Compactados
 /Fotos
-/Exe
-/Docs
+/Executáveis
+/Documentos
