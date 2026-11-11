@@ -17,6 +17,7 @@ def move_arquivos():
     
     diretorio_original = Path(".")
 
+    # Verificando arquivos no diretório
     for f in os.listdir(diretorio_original):
 
         # Validando se é um arquivo
@@ -31,9 +32,10 @@ def move_arquivos():
                     break
 
 if __name__ == '__main__':
+    # Dicionário de pastas e as extensões que lhe pertencem
     pastas = {
         "Documentos": (".pdf", ".txt", ".docx", ".doc", ".pptx", ".pbix", ".xlsx", ".xls", ".rtf"),
-        "Fotos": (".jpeg", ".jpg", ".png", "gif"),
+        "Fotos": (".jpeg", ".jpg", ".png", "gif", ".bmp", ".webp", ".heic", ".raw", ".tiff", ".svg"),
         "Áudios": (".wav", ".aiff", ".pcm", ".mp3", ".aac", ".ogg", ".wma", ".flac", ".alac", ".ape", ".m4a", ".dsf", ".dff"),
         "Vídeos": (".avi", ".wmv", ".mov", ".qt", ".mkv", ".mp4", ".avchd", ".flv", ".swf", ".webm"),
         "Executáveis": ".exe",
